@@ -74,6 +74,7 @@ int main() {
 				UnloadTexture( tilemap );
 				tilemap = LoadTexture( file );
 			}
+			UnloadDirectoryFiles( files );
 		}
 
 		BeginDrawing();

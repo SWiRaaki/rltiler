@@ -1,11 +1,24 @@
-/build/
+# Build directories 
+build/
+out/
+
+# CMake generated files and cache
 CMakeCache.txt
 CMakeFiles/
+
+# IDE directories
+.vs/
+
+# Project files
 Makefile
+*.sln
+
+# Binary files and logs
 *.o
 *.obj
 *.exe
 *.out
 *.log
 
+# Git dependencies
 external/raylib/
