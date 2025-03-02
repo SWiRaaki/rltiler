@@ -1,0 +1,11 @@
+/build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+external/raylib/
